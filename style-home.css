@@ -1,4 +1,4 @@
-body { 
+body {
    background: #cccccc;
    margin: 0;
    padding: 0;
@@ -7,25 +7,24 @@ body {
 
 /* Banner */
 #banner {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
+   width: 100%;
+   display: block;
+   margin: 20px auto;
 }
 
 /* Principal */
 .principal {
-    background: #cccccc;
-    padding: 30px 20px;
+   background: #cccccc;
+   padding: 30px 20px;
 }
 
 /* Título */
 .titulo {
-    display: block;
-    color: #000000;     
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 20px;
+   display: block;
+   color: #000000;
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 20px;
 }
 
 /* Caixa - cabeçalho */
@@ -41,21 +40,21 @@ body {
 
 /* NAV */
 nav ul {
-    list-style: none;
-    padding: 0;
+   list-style: none;
+   padding: 0;
 }
 
 nav li {
    display: inline-block;
-   margin-left: 15px;   
+   margin-left: 15px;
 }
 
-nav a{
-  text-transform: uppercase;
-  color: #000;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: none;
+nav a {
+   text-transform: uppercase;
+   color: #000;
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
 }
 
 nav a:hover {
@@ -64,66 +63,66 @@ nav a:hover {
 }
 
 /* Título central */
-.titulo-centralizado{
-    padding-bottom: 25px;
-    font-size: 30px;
-    text-align: center;
+.titulo-centralizado {
+   padding-bottom: 25px;
+   font-size: 30px;
+   text-align: center;
 }
 
 /* Textos */
-#paragrafo { 
-    font-size: 20px; 
-    text-align: center;
-    padding: 15px;
+#paragrafo {
+   font-size: 20px;
+   text-align: center;
+   padding: 15px;
 }
 
-#missao { 
-    text-align: center;
-    font-size: 25px;
+#missao {
+   text-align: center;
+   font-size: 25px;
 }
 
 em strong {
-    color: #ff0000;
+   color: #ff0000;
 }
 
 /* Lista e imagem lado a lado */
 .beneficios {
-    background: #cccccc;
-    padding: 20px;
-    text-align: center;
+   background: #cccccc;
+   padding: 20px;
+   text-align: center;
 }
 
 .beneficios ul {
-    font-size: 20px;
-    display: inline-block;
-    width: 100%;  
-    margin-bottom: 20px;
+   font-size: 20px;
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 20px;
 }
 
 .itens {
-    font-size: 22px;
-    font-style: italic;
+   font-size: 22px;
+   font-style: italic;
 }
 
 /* Imagem grande */
 .imagembeneficios {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: auto;
+   width: 100%;
+   max-width: 600px;
+   display: block;
+   margin: auto;
 }
 
 /* Rodapé */
 footer {
-    text-align: center;
-    background: url("/Img/bg.jpg");
-    padding: 35px 0;
+   text-align: center;
+   background: url("/Img/bg.jpg");
+   padding: 35px 0;
 }
 
 .copyright {
-    margin-top: 20px;
-    color: #ffffff;
-    font-size: 13px;
+   margin-top: 20px;
+   color: #ffffff;
+   font-size: 13px;
 }
 
 /* ------------------------------ */
@@ -132,48 +131,49 @@ footer {
 
 @media (max-width: 768px) {
 
-    .caixa {
-        flex-direction: column;
-        text-align: center;
-    }
+   .caixa {
+      flex-direction: column;
+      text-align: center;
+   }
 
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
+   nav li {
+      display: block;
+      margin: 10px 0;
+   }
 
-    .titulo {
-        font-size: 32px;
-    }
+   .titulo {
+      font-size: 32px;
+   }
 
-    .titulo-centralizado {
-        font-size: 26px;
-    }
+   .titulo-centralizado {
+      font-size: 26px;
+   }
 
-    #banner {
-        max-width: 90%;
-    }
+   #banner {
+      max-width: 90%;
+   }
 
-    .beneficios ul {
-        font-size: 18px;
-    }
+   .beneficios ul {
+      font-size: 18px;
+   }
 
-    .imagembeneficios {
-        max-width: 90%;
-    }
+   .imagembeneficios {
+      max-width: 90%;
+   }
 }
 
 @media (max-width: 480px) {
 
-    nav a {
-        font-size: 18px;
-    }
+   nav a {
+      font-size: 18px;
+   }
 
-    #paragrafo, #missao {
-        font-size: 18px;
-    }
+   #paragrafo,
+   #missao {
+      font-size: 18px;
+   }
 
-    .titulo {
-        font-size: 28px;
-    }
+   .titulo {
+      font-size: 28px;
+   }
 }
