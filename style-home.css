@@ -20,9 +20,9 @@ body {
 }
 
 .caixa {
-   position: relative;
-   width: 910px;
-   right: 0 auto;
+    width: 100%;
+    max-width: 910px;
+    margin: 0 auto;
 }
 
 nav {
