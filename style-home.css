@@ -2,10 +2,11 @@
    background: #cccccc;
 
 }*/
-html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+   width: 100%;
+   margin: 0;
+   padding: 0;
 }
 
 
@@ -27,9 +28,9 @@ html, body {
 }
 
 .caixa {
-    width: 100%;
-    max-width: 910px;
-    margin: 0 auto;
+   width: 100%;
+   max-width: 910px;
+   margin: 0 auto;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav li {
 
 nav a {
    text-transform: uppercase;
-   color: #faf6f6;
+   color: black;
    font-weight: bold;
    font-size: 22px;
    text-decoration: none;
@@ -104,9 +105,10 @@ ul {
 }
 
 footer {
+   padding: 35px 0;
    text-align: center;
    background: url("/Img/bg.jpg");
-   padding: 35px 0;
+
 }
 
 .copyright {
@@ -127,7 +129,7 @@ footer {
    }
 
    nav {
-      position: static;
+      position: fixed;
       text-align: center;
       margin-top: 20px;
    }
@@ -141,34 +143,51 @@ footer {
       font-size: 18px;
    }
 
-   .produtos {
-      width: 100%;
-      padding: 30px 10px;
+   .itens {
+      width: 268px;
+      margin: 10px auto;
+      font-size: 24px;
+      font-style: italic;
    }
+}
 
-   .produtos li {
-      width: 100%;
-      margin: 15px 0;
-   }
+.imagembeneficios {
+   width: 100%;
 
-   main {
-      width: 100%;
-      padding: 0 15px;
-   }
+}
 
-   .input-padrao {
-      width: 100%;
-   }
+.produtos {
+   width: 100%;
+   padding: 30px 10px;
+}
 
-   .enviar {
-      width: 100%;
-      transform: none;
-   }
+.produtos li {
+   width: 100%;
+   margin: 15px 0;
+}
 
-   table {
-      width: 100%;
-      font-size: 14px;
-   }
+main {
+   width: 100%;
+   padding: 0 15px;
+}
+
+.input-padrao {
+   width: 100%;
+}
+
+.enviar {
+   width: 100%;
+   transform: none;
+}
+
+table {
+   width: 100%;
+   font-size: 14px;
+}
+
+.footer {
+   padding: 30px 0;
+}
 }
 
 
