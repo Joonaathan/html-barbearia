@@ -1,30 +1,38 @@
-body { 
+/*body {
    background: #cccccc;
+
+}*/
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+
 #banner {
-    width:60%  ; 
-    padding: 20px 0 0  20%;
+   width: 60%;
+   padding: 20px 0 0 20%;
 
 }
 
 .principal {
-    background: #cccccc;
-    padding: 30px;
+   background: #cccccc;
+   padding: 30px;
 }
 
 .titulo {
-    display: inline-block;
-    color: #000000;     
-    font-size: 50px; 
+   display: inline-block;
+   color: #000000;
+   font-size: 50px;
 }
-.caixa {
-   position: relative;
-   width: 910px;
-   right: 0 auto;
-} 
 
-nav{
+.caixa {
+    width: 100%;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+nav {
    position: absolute;
    top: 0px;
    right: 50px;
@@ -32,76 +40,156 @@ nav{
 
 nav li {
    display: inline;
-   margin: 0 0 0 15px;   
+   margin: 0 0 0 15px;
 }
 
-nav a{
-  text-transform: uppercase;
-  color: #faf6f6;
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration: none;
+nav a {
+   text-transform: uppercase;
+   color: #faf6f6;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
 }
 
 nav a:hover {
-   text-decoration:underline;
+   text-decoration: underline;
    color: #fffb02;
-   
+
 }
 
 
 
-.titulo-centralizado{
-    padding: 0 0 25px;
-    font-size: 35px;
-    text-align: center;
+.titulo-centralizado {
+   padding: 0 0 25px;
+   font-size: 35px;
+   text-align: center;
 }
 
-#paragrafo { 
-    font-size: 20px; 
-    text-align: center;
-    padding: 15px;
- }
+#paragrafo {
+   font-size: 20px;
+   text-align: center;
+   padding: 15px;
+}
 
- #missao { 
-    text-align: center;
-    font-size: 25px;
- }
+#missao {
+   text-align: center;
+   font-size: 25px;
+}
 
-em strong{
-    color: #ff0000
- }
+em strong {
+   color: #ff0000
+}
 
- .itens {
-   
-    font-size: 25px;
-    font-style: italic
- }
+.itens {
+
+   font-size: 25px;
+   font-style: italic
+}
 
 .beneficios {
-    background: #cccccc;
-    padding:20px;
- }
-
- ul {
-    vertical-align: top;
-    font-size: 20px;
-    display: inline-block;
-    width: 20%;
-    margin-right: 5%;
- }
-
- .imagembeneficios {
-    width: 60%;
- } 
-
- footer {
-    text-align: center;
-    background: url("/Img/bg.jpg");
-    padding: 35px 0;
+   background: #cccccc;
+   padding: 20px;
 }
+
+ul {
+   vertical-align: top;
+   font-size: 20px;
+   display: inline-block;
+   width: 20%;
+   margin-right: 5%;
+}
+
+.imagembeneficios {
+   width: 60%;
+}
+
+footer {
+   text-align: center;
+   background: url("/Img/bg.jpg");
+   padding: 35px 0;
+}
+
 .copyright {
-    margin: 20px 0 0;
-    color: #ffffff;
-    font-size: 13px;
-} 
+   margin: 20px 0 0;
+   color: #ffffff;
+   font-size: 13px;
+}
+
+
+/* RESPONSIVIDADE – CELULAR */
+
+
+@media (max-width: 768px) {
+
+   .caixa {
+      width: 100%;
+      padding: 0 20px;
+   }
+
+   nav {
+      position: static;
+      text-align: center;
+      margin-top: 20px;
+   }
+
+   nav li {
+      display: block;
+      margin: 10px 0;
+   }
+
+   nav a {
+      font-size: 18px;
+   }
+
+   .produtos {
+      width: 100%;
+      padding: 30px 10px;
+   }
+
+   .produtos li {
+      width: 100%;
+      margin: 15px 0;
+   }
+
+   main {
+      width: 100%;
+      padding: 0 15px;
+   }
+
+   .input-padrao {
+      width: 100%;
+   }
+
+   .enviar {
+      width: 100%;
+      transform: none;
+   }
+
+   table {
+      width: 100%;
+      font-size: 14px;
+   }
+}
+
+
+/* CELULARES PEQUENOS       */
+
+
+@media (max-width: 480px) {
+
+   nav a {
+      font-size: 16px;
+   }
+
+   .produtos h2 {
+      font-size: 26px;
+   }
+
+   .produtos-preco {
+      font-size: 22px;
+   }
+
+   .enviar:hover {
+      transform: scale(1.05);
+   }
+}
