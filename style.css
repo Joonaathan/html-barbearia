@@ -189,6 +189,7 @@ footer {
     }
 
     .produtos {
+        margin: 5px 12px auto;
         flex: 1 1 280px;
         max-width: 320px;
         flex-wrap: wrap;
